@@ -2,6 +2,7 @@
 A jQuery credit card detector to add a little flair to your credit card inputs.
 
 To set up: 
+
 Make sure you have jQuery included on the page.
 
 Add the css, images, and js into your html like so
