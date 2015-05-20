@@ -21,4 +21,6 @@ Add the css, images, and js into your html like so
 
 and then just make sure the credit card input you're using has the id of credit_card_input, if you'd like to use a different selector you can, just make sure to alter the cc_detector.css accordingly.
 
+Check it out here http://zacbrac.github.io/jQuery-CC_Detector/
+
 Enjoy.
