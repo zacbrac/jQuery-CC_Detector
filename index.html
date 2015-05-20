@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CC_Detector</title>
+	<link rel="stylesheet" type="text/css" href="cc_detector.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+	<style>
+		/* Customize container */
+		@media (min-width: 768px) {
+		  .container {
+		    max-width: 730px;
+		  }
+		}
+
+		h1 {
+		    text-align: center;
+		    margin-bottom: 32px;
+		}
+
+		#credit_card_input {
+		    float: left;   width: 70%;
+		    margin-right: 8px;
+		}
+
+		.form-group {
+		    padding-left: 28px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="page-header">
+					<h1><span class="text-info">jQuery</span> Credit Card Detector</h1>
+				</div>
+			</div>
+			<div class="col-md-8 col-md-offset-2">
+				<div class="jumbotron">
+					<div class="form-group">
+						<input id="credit_card_input" maxlength="19" class="form-control" type="text">
+						<input class="btn btn-primary btn-md" type="submit" value="Submit">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="cc_detector.js"></script>
+	<script src="bootstrap/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function() {
+
+	    CC_Checker.init("#credit_card_input");
+
+	});
+	</script>
+</body>
+</html>
