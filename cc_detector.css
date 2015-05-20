@@ -1,0 +1,24 @@
+#credit_card_input {
+    padding-left: 50px;
+    background-size: 44px 25px !important;
+}
+
+#credit_card_input.visa {
+    background: #fff url(images/visa.png) no-repeat 3.5px 3.5px;
+}
+
+#credit_card_input.amex {
+    background: #fff url(images/amex.png)  no-repeat 3.5px 3.5px;
+}
+
+#credit_card_input.discover {
+    background: #fff url(images/discover.png)  no-repeat 3.5px 3.5px;
+}
+
+#credit_card_input.mastercard {
+    background: #fff url(images/mastercard.png)  no-repeat 3.5px 3.5px;
+}
+
+#credit_card_input.unknown_card {
+    background: #fff url(images/unknown_card.png)  no-repeat 3.5px 3.5px;
+}
